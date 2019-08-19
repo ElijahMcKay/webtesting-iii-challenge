@@ -3,7 +3,7 @@ import React from 'react';
 // Test away
 //import react-test-renderer as --dev dependency and then import...
 import renderer from 'react-test-renderer'; 
-import render from '@testing-library/react'; //import this for access to "render", instead of "render.create" for snapshots
+import { render } from '@testing-library/react'; //import this for access to "render", instead of "render.create" for snapshots
 import Controls from './Controls'; //importing component we're testing
 
 describe('<Controls />', () => {
